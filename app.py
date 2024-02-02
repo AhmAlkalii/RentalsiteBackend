@@ -148,7 +148,7 @@ def get_user_reservations(user_id):
 
 @app.route('/openai-api-key', methods=['GET'])
 def get_openai_api_key():
-    openai_api_key = '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'
+    openai_api_key = 'api key goes here'
     return jsonify({'openai_api_key': openai_api_key})
 
 
